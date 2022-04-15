@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:id="@+id/icon"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:src="@drawable/ic_baseline_account_circle_24"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Hello,"-->
+<!--                android:id="@+id/hello"-->
+<!--                android:layout_alignRight="@id/icon"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:textSize="20dp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/adebayo"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:text="Adebayo"-->
+<!--                android:textSize="20dp" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="right"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:src="@drawable/ic_baseline_notifications_24" />-->
+
+<!--        </LinearLayout>-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical">-->
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="100dp"-->
+<!--    app:cardBackgroundColor="#FFA500"-->
+<!--    android:layout_margin="20dp"-->
+<!--    app:cardCornerRadius="10dp"-->
+<!--    >-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Balance"-->
+<!--            android:id="@+id/txt_balance"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginTop="20dp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="#0.00"-->
+<!--            android:layout_below="@+id/txt_balance"-->
+<!--            android:id="@+id/balance"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginTop="10dp"/>-->
+
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:drawableLeft="@drawable/ic_baseline_add_24"-->
+<!--            android:text="Top up"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Verify your account to remove limit"-->
+<!--        android:gravity="center"-->
+<!--        android:background="#ECC5C0"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_error_outline_24"-->
+<!--        />-->
+
+<!--</LinearLayout>-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                app:cardBackgroundColor="#ADDFFF"-->
+<!--                >-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:src="@drawable/ic_baseline_house_24"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Send Money"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        />-->
+<!--                    <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="to Bank"-->
+<!--                        android:textColor="@color/black"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="150dp"-->
+
+<!--                android:layout_margin="20dp"-->
+<!--                app:cardBackgroundColor="#ADDFFF"-->
+<!--                >-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:src="@drawable/ic_baseline_house_24"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Send Money"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="to Bank"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+<!--        </RelativeLayout>-->
+
+
+    </LinearLayout>
+
+</ScrollView>
