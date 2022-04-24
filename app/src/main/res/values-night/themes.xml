@@ -3,7 +3,7 @@
     <style name="Theme.FlutterApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#FFA500</item>
-        <item name="colorPrimaryVariant">#FFA500</item>
+        <item name="colorPrimaryVariant">#ECC5C0</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

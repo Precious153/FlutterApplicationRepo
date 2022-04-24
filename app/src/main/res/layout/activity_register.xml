@@ -297,11 +297,12 @@
             android:layout_marginTop="20dp"
             android:layout_height="60dp"
             android:text="Register"
+            android:background="#FFA500"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
             android:id="@+id/button_register"
             android:textColor="@color/white"
-            android:textSize="10dp"
+            android:textSize="15dp"
             />
 
         <TextView
